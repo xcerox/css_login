@@ -1,0 +1,130 @@
+@import './vendors.css';
+@import './wrapperbootstrap.css';
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif !important;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.login {
+  background-image: linear-gradient(rgba(17,153,142, 0.7), rgba(56,239,125, 0.7)), url(../assets/images/Patient-with-Dentist.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.ms {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+.logo-img {
+  width: 120px;
+  height: 120px;
+  background-image: linear-gradient(#fc4a1a, #f7b733);
+  display: block;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.login-card {
+  width: 500px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+  border-width: 0 !important;
+}
+
+.login-form-control {
+  border-radius: 75px !important; 
+}
+
+.login-form-control:focus {
+  border-color: #36c74b !important;
+  box-shadow: 0 0 0 .2rem rgba(17,153,142,.25);
+}
+
+.triangle {
+  display: block;
+  margin: 0 auto  -15px;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  top: -20px;
+  box-shadow: 6px 5px 9px -9px black,
+              5px 6px 9px -9px black;
+  transform:      rotate(45deg);
+}
+
+.form-actions {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.form-actions .btn {
+  border-radius: 75px !important;
+}
+
+.has-icon {
+  position:relative;
+}
+
+.has-icon .inside-icon-left {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 .5rem;
+}
+
+.has-icon .inside-icon-right {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 91%;
+  padding: 0 .5rem;
+}
+
+.has-icon .icon-holder-left {
+  padding-left: 2rem;
+}
+
+.has-icon .icon-holder-right {
+  padding-right: 2rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .login-card {
+    width: 350px;
+  }
+
+  .has-icon .inside-icon-right {
+    left: 89%;
+    padding: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+

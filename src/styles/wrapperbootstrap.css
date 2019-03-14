@@ -1,0 +1,16 @@
+.btn-primary:hover {
+  background-color: #38ef7d !important;
+  border-color: #0b8457 !important; 
+  box-shadow: 0 0 0 .2rem rgba(0, 255, 118, 0.5) !important;
+}
+
+.btn-primary:active {
+  background-color: #38ef7d !important;
+  border-color: #0b8457 !important;
+  box-shadow: 0 0 0 .2rem rgba(0, 255, 118, 0.5) !important;
+}
+
+.btn-primary {
+  background-color: #0b8457 !important;
+  border-color: #11998e !important;
+}
